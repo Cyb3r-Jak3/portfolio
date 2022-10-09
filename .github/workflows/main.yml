@@ -56,8 +56,8 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.PAT_TOKEN }}
 
       - name: Docker Meta
         id: meta
