@@ -1,0 +1,67 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+experiences:
+  - company:
+      name: Vicarious Surgical
+      url: "https://www.vicarioussurgical.com/"
+    positions:
+    - designation: DevOps Engineer
+      start: November 2021
+      responsibilities:
+      - Maintained build system, documentation system, code repositories, and more.
+      - Applied feedback from developers to change or create new services.
+      - Improved the workflow of non-developers using software tools.
+      - Coordinated and executed our software build and release schedule.
+      - Kept up to date with best practices and security concerns.
+
+  - company:
+      name: Verkada
+      url: "https://verkada.com"
+      location: San Mateo, CA
+    positions:
+    - designation: Technical Support Engineer
+      start: May 2020
+      end: May 2021
+      responsibilities:
+      - Helped customers troubleshoot network, hardware and software issues related to the Verkada platform.
+      - Developed public applications in Python using Verkada's public api.
+      - Developed internal applications and libraries/modules with Python & Go to improve the efficiency of support.
+      - Screened bugs and collaborated with engineering teams to fix them.
+
+  - company:
+      name: Leahy Center
+      location: Burlington, VT
+    positions:
+    - designation: NOC Analyst
+      start: January 2020
+      end: May 2020
+      responsibilities:
+      - Maintained an Office 365 environment for clients.
+      - Managed, configured, and troubleshooted networks and infrastructure for clients.
+      - Answered support requests from clients and remediated issues in a timely manner.
+    - designation: System Administrator
+      start: August 2019
+      end: December 2019
+      responsibilities:
+      - Updated and maintained network infrastructure such as ESXI hosts, Windows, and Linux servers.
+      - Administered and troubleshot vSphere environment.
+      - Ensured high availability of all infrastructure components to prevent any potential downtime to critical network components.
+
+  - company:
+      name: Cisco Meraki
+      location: San Francisco, CA
+    positions:
+    - designation: Network Support Intern
+      start: June 2019
+      end: August 2019
+      responsibilities:
+      - Troubleshooted cases that covered the entire Meraki product line, including wireless access points, security appliances, switches, and Systems Manager application.
+      - Resolved issues reported by Meraki customers and partners.

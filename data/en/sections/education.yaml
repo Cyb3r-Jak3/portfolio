@@ -1,0 +1,17 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: Bachelor of Science in Computer Networking & Cyber Security
+    icon: fa-microscope
+    timeframe: 2016-2020
+    institution:
+      name: Champlain College

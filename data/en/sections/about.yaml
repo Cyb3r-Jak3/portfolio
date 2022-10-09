@@ -1,0 +1,45 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+designation: DevOps Engineer
+
+summary: 'I am a privacy orientated individual who strongly believes in transparency and enjoys learning about new technologies and exploring new ways of doing things. I love discovering new platforms and new ways of doing things and using technology to its fullest potential.'
+
+resourceLinks:
+
+  - title: "Resume"
+    url: "files/resume.pdf"
+
+  - title: "PGP Key"
+    url: "files/connect@cyberjake.xyz.asc"
+
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/Cyb3r-Jak3"
+
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "connect@cyberjake.xyz"
+
+  - name: Twitter
+    icon: "fab fa-twitter"
+    url: "https://twitter.com/Cyb3r_Jak3"
+
+  - name: PGP Key
+    icon: "fas fa-lock"
+    url: "/files/connect@cyberjake.asc"
+
+  - name: Blog
+    icon: "fas fa-pen-fancy"
+    url: "https://blog.cyberjake.xyz/"
+
+badges:
+  - type: certification
+    name: Cisco CCNA
+    url: "https://www.credly.com/badges/a6cd4a74-3474-42df-84b3-ad6b27b8493f"
+    badge: "/images/ccna-badge.png"

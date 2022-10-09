@@ -1,0 +1,39 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
+  - name: Python Development
+    logo: /images/sections/skills/python.png
+    summary: "Python is my main programing language. I find it a very versatile and easy to adapt to any project."
+    url: "https://python.org"
+
+  - name: Computer Networking
+    logo: /images/sections/skills/networking.jpg
+    summary: "I started out with an interest in computer networking. I don't deal with that much on a day to day, I still enjoy doing it where I can." 
+    url: "https://en.wikipedia.org/wiki/Computer_network"
+
+  - name: Go Development
+    logo: /images/sections/skills/go.png
+    summary: "I have started to develop in Go where I believe that it will work the best."
+    url: "https://golang.org/"
+
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: "I use Docker a lot. From building container to used in a development process and CI pipelines and to building images used in production deployments."
+    url: "https://www.docker.com/"
+
+#   - name: Rest APIs
+#     logo: /images/sections/skills/go.png
+#     summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#     url: "https://golang.org/"
+
+  - name: Typescript
+    logo: /images/sections/skills/typescript.svg
+    summary: "Typescript is something that I am starting to use to develop with Cloudflare Workers."
+    url: "https://www.typescriptlang.org/"

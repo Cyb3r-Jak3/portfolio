@@ -1,0 +1,14 @@
+contactInfo:
+  email: "contact@cyberjake.xyz"
+
+name: "Cyb3r Jak3"
+nickname: "Cyb3r Jak3"
+image: "images/site/about.png"
+designation: DevOps Engineer
+
+summary:
+  - I am a Python Developer
+  - I am a Devops Engineer
+  - I am a Cloudflare MVP
+
+greeting: "Hello World, I am"
