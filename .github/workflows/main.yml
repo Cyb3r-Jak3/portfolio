@@ -86,7 +86,7 @@ jobs:
           push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
 
       - name: Export Docker image
-        run: docker save --output="/tmp/image.tar" ${{ env.DOCKER_SLUG }}@${{ steps.build.outputs.imageid }}
+        run: docker save --output="/tmp/image.tar" ${{ env.DOCKER_SLUG }}:latest
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
