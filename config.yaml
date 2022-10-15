@@ -3,9 +3,7 @@ languageCode: en-us
 title: Cyb3r Jak3
 theme: "toha"
 
-
 enableEmoji: true
-
 
 markup:
   tableOfContents:
@@ -18,7 +16,6 @@ outputs:
     - HTML
     - RSS
     - JSON
-  
 
 
 # Site parameters
@@ -26,7 +23,6 @@ params:
   # # GitHub repo URL of your site
   # gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
 
-  # background: /images/site/background.webp
   logo:
     favicon: /images/site/favicon.png
 
@@ -41,7 +37,22 @@ params:
       enable: true
     analytics:
       enabled: false
+    notes:
+      enable: true
 
+  comment:
+    giscus:
+      repo: Cyb3r-Jak3/portfolio
+      repoID: R_kgDOILD6BQ
+      category: Giscus
+      categoryID: DIC_kwDOILD6Bc4CR_Xh
+      theme: dark
+      map: url
+      reaction: 1
+      metadata: 0
+      inputPosition: bottom
+      crossOrigin: anonymous
+  showFlags: false
   footer:
     enable: true
     # You can provide your custom footer template using this option.
@@ -52,9 +63,6 @@ params:
       enable: true
       # show custom menus in the footer
       customMenus: true
-    # Show/hide "Contact Me" section in the footer. Default is "true".
-    contactMe:
-      enable: true
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
       enable: false
