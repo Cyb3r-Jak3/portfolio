@@ -37,8 +37,6 @@ params:
       enable: true
     analytics:
       enabled: false
-    notes:
-      enable: true
 
   comment:
     giscus:
