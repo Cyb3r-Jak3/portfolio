@@ -17,6 +17,15 @@ resourceLinks:
   - title: "PGP Key"
     url: "files/connect@cyberjake.xyz.asc"
 
+  - title: "Download Detached Signature"
+    url: "files/resume.pdf.asc"
+
+  - title: "Download Attached Signature"
+    url: "files/resume.pdf.sig"
+
+  - title: "Download Signed Resume"
+    url: "files/resume.pdf.gpg"
+
 socialLinks:
   - name: Github
     icon: "fab fa-github"
