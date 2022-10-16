@@ -12,6 +12,7 @@ experiences:
   - company:
       name: Vicarious Surgical
       url: "https://www.vicarioussurgical.com/"
+      location: Waltham, MA
     positions:
     - designation: DevOps Engineer
       start: November 2021
