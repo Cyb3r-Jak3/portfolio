@@ -30,7 +30,7 @@ skills:
 
   - name: Continuous Integration and Continuous Deployment
     logo: /images/sections/skills/ci_cd.png
-    summary: "Designed and implemented continuous integration pipelines providing developers with quick, reliable and constant feedback. Created pipelines that handled software linting checks to hardware integration tests."
+    summary: "Designed and implemented continuous integration pipelines providing developers with quick, reliable and constant feedback."
     url: "https://resources.github.com/ci-cd/"
 
   # - name: Typescript
