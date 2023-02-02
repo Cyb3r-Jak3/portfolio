@@ -1,14 +1,14 @@
 contactInfo:
-  email: "contact@cyberjake.xyz"
+  email: "jake@jwhite.network"
 
-name: "Cyb3r Jak3"
-nickname: "Cyb3r Jak3"
+name: "Jake White"
+nickname: "Jake White"
 image: "images/site/about.png"
 designation: DevOps Engineer
 
 summary:
-  - I am a Python & Go Developer
-  - I am a Devops Engineer
+  - I am a DevOps Engineer
+  - I am a Python & GoLang Developer
   - I am a Cloudflare MVP
 
 greeting: "Hello World, I am"

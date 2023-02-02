@@ -15,7 +15,7 @@ resourceLinks:
     url: "files/resume.pdf"
 
   - title: "PGP Key"
-    url: "files/connect@cyberjake.xyz.asc"
+    url: "files/jake@jwhite.network.asc"
 
   - title: "Download Detached Signature"
     url: "files/resume.pdf.asc"

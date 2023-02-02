@@ -22,6 +22,7 @@ experiences:
       - Improved the workflow of non-developers using software tools.
       - Coordinated and executed our software build and release schedule.
       - Kept up to date with best practices and security concerns.
+      - Designed and implemented new CI build pipeline.
 
   - company:
       name: Verkada
