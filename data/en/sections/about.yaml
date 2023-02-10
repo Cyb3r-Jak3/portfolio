@@ -17,6 +17,9 @@ resourceLinks:
   - title: "PGP Key"
     url: "files/jake@jwhite.network.asc"
 
+  - title: "Release Key"
+    url: "files/releases@cyberjake.xyz.asc"
+
   - title: "Download Detached Signature"
     url: "files/resume.pdf.asc"
 
