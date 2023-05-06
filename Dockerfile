@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.107.0-ext-alpine-onbuild AS hugo
+FROM klakegg/hugo:0.111.3-ext-alpine-onbuild AS hugo
 
 FROM nginx:mainline-alpine
 COPY --from=hugo /target /usr/share/nginx/html
