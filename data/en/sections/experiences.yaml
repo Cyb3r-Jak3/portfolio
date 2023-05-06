@@ -10,12 +10,25 @@ section:
 
 experiences:
   - company:
+      name: SimpliSafe
+      url: "https://simplisafe.com/"
+      location: Boston, MA
+    positions:
+      - designation: IT Infrastructure Engineer
+        start: April 2023
+        responsibilities:
+        - Developed system-monitoring and support automation to enhance and scale the quality of support
+        - Deployed and manage business-critical applications and resources in a cloud infrastructure like Amazon Web Services.
+        - Developed and maintained internal tools to improve the efficiency of the IT team.
+
+  - company:
       name: Vicarious Surgical
       url: "https://www.vicarioussurgical.com/"
       location: Waltham, MA
     positions:
     - designation: DevOps Engineer
       start: November 2021
+      end: April 2023
       responsibilities:
       - Maintained build system, documentation system, code repositories, and more.
       - Applied feedback from developers to change or create new services.
