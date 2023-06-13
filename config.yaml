@@ -55,3 +55,7 @@ params:
       enable: false
     newsletter:
       enable: false
+
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
