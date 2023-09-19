@@ -52,7 +52,7 @@ jobs:
             # extra: --ignore-re Attribute "built"
 
       - name: Login To GitHub
-        uses: docker/login-action@v2 
+        uses: docker/login-action@v3 
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
           registry: ghcr.io
