@@ -34,7 +34,7 @@ jobs:
         #     sed -i "/BUILD_DATE/{s//$date/g}"  public/index.html
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
