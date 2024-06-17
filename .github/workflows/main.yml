@@ -75,7 +75,7 @@ jobs:
 
       - name: Build Portfolio Docker
         id: build
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           platforms: linux/amd64
           cache-from: type=gha
@@ -86,7 +86,7 @@ jobs:
           push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
 
       - name: Export Image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           outputs: type=docker,dest=/tmp/myimage.tar
           tags: ${{ steps.meta.outputs.tags }}
