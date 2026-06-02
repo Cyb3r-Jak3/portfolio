@@ -9,12 +9,11 @@ on:
       - data/**
       - layouts/**
       - static/**
-      - themes/**
       - config.yaml
       - .github/workflows/main.yml
 
 jobs:
-  Docker:
+  Site:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
