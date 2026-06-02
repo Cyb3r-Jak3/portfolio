@@ -1,6 +1,6 @@
 baseURL: https://cyberjake.xyz
-languageCode: en-us
-title: Cyb3r Jak3
+locale: en-us
+title: JWhite Portfolio
 
 # Use Hugo modules to add theme
 module:
@@ -45,7 +45,11 @@ params:
     portfolio:
       enable: true
     analytics:
-      enabled: false
+      enable: false
+    blog:
+      enable: false
+    notes:
+      enable: false
 
   comment:
     enable: false
