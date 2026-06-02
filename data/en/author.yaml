@@ -1,5 +1,10 @@
 contactInfo:
-  email: "jake@jwhite.network"
+  email: "contact@cyberjake.xyz"
+  github: "Cyb3r-Jak3"
+  twitter:
+    icon: "square-x-twitter"
+    url: "https://x.com/Cyb3r_Jak3"
+    text: "Twitter / X"
 
 name: "Jake White"
 nickname: "Jake White"
