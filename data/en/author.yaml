@@ -1,13 +1,18 @@
 contactInfo:
-  email: "jake@jwhite.network"
+  email: "contact@cyberjake.xyz"
+  github: "Cyb3r-Jak3"
+  twitter:
+    icon: "square-x-twitter"
+    url: "https://x.com/Cyb3r_Jak3"
+    text: "Twitter / X"
 
 name: "Jake White"
 nickname: "Jake White"
-image: "images/site/about.png"
-designation: DevOps Engineer
+image: "images/site/about.jpg"
+designation: Senior DevOps Engineer
 
 summary:
-  - I am a DevOps Engineer
+  - I am a Senior DevOps Engineer
   - I am a Python & GoLang Developer
   - I am a Cloudflare MVP
 
