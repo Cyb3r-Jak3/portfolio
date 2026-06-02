@@ -11,6 +11,9 @@ on:
       - static/**
       - config.yaml
       - .github/workflows/main.yml
+      - build.sh
+      - package.json
+      - package-lock.json
 
 jobs:
   Site:
