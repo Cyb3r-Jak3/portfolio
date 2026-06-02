@@ -9,24 +9,18 @@ section:
 
 skills:
   - name: Python Development
-    logo: /images/sections/skills/python.png
-    summary: "Python is my main programing language. It is versatile and easy to bring into any project"
+    logo: /images/sections/skills/python.svg
+    summary: "Python is my main programming language. It is versatile and easy to bring into any project"
     url: "https://python.org"
-
-  - name: Computer Networking
-    logo: /images/sections/skills/networking.jpg
-    summary: "Computer networking was my first love. I enjoy building networks that efficiently handle high demands of network traffic." 
-    url: "https://en.wikipedia.org/wiki/Computer_network"
 
   - name: GoLang
     logo: /images/sections/skills/go.png
-    summary: "I use GoLang to develop CLI applications as they are easy to package and deploy"
+    summary: "I find GoLang useful for developing CLI applications as they are easy to package and deploy"
     url: "https://golang.org/"
 
-  - name: Docker / Containerization
+  - name: Docker / Containerization / Kubernetes
     logo: /images/sections/skills/docker.svg
     summary: "Built containers that are used in a development process, CI pipelines and production deployments."
-    url: "https://www.docker.com/"
 
   - name: Continuous Integration and Continuous Deployment
     logo: /images/sections/skills/ci_cd.png

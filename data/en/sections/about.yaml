@@ -5,9 +5,9 @@ section:
   weight: 1
   showOnNavbar: true
 
-designation: DevOps Engineer
+designation: Senior DevOps Engineer
 
-summary: 'I am a privacy orientated individual who strongly believes in transparency and enjoys learning about new technologies and exploring new ways of doing things. I love discovering new platforms and new ways of doing things and using technology to its fullest potential.'
+summary: 'I am a privacy orientated individual who strongly believes in transparency and enjoys learning about new technologies and exploring new ways of doing things. I love discovering new platforms and new ways of doing things and using technology to its fullest potential. Most recently I have been working with MCP servers'
 
 resourceLinks:
 
@@ -15,7 +15,7 @@ resourceLinks:
     url: "files/resume.pdf"
 
   - title: "PGP Key"
-    url: "files/jake@jwhite.network.asc"
+    url: "files/connect@cyberjake.xyz.asc"
 
   - title: "Release Key"
     url: "files/releases@cyberjake.xyz.asc"
@@ -41,17 +41,3 @@ socialLinks:
   - name: Twitter
     icon: "fab fa-twitter"
     url: "https://twitter.com/Cyb3r_Jak3"
-
-  - name: PGP Key
-    icon: "fas fa-lock"
-    url: "/files/connect@cyberjake.asc"
-
-  - name: Blog
-    icon: "fas fa-pen-fancy"
-    url: "https://blog.cyberjake.xyz/"
-
-badges:
-  - type: certification
-    name: Cisco CCNA
-    url: "https://www.credly.com/badges/a6cd4a74-3474-42df-84b3-ad6b27b8493f"
-    badge: "/images/ccna-badge.png"

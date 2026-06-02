@@ -14,8 +14,18 @@ experiences:
       url: "https://simplisafe.com/"
       location: Boston, MA
     positions:
+      - designation: Senior DevOps Engineer
+        start: June 2025
+        end: Present
+        responsibilities:
+        - Oversaw projects from inception to completion, ensuring timely delivery and alignment with business goals.
+        - Administered services such as Okta, AWS, GCP, Google Workspace.
+        - Collaborated with cross-functional teams to ensure smooth deployment and operation of applications.
+        - Deployed and maintained VPN matching business needs from engineering to 24/7 critical monitoring operations
+        - Assisted with deployment of AI tools and platforms.
       - designation: IT Infrastructure Engineer
         start: April 2023
+        end: June 2025
         responsibilities:
         - Developed system-monitoring and support automation to enhance and scale the quality of support
         - Deployed and manage business-critical applications and resources in a cloud infrastructure like Amazon Web Services.

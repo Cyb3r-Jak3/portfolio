@@ -9,27 +9,19 @@ on:
       - data/**
       - layouts/**
       - static/**
-      - themes/**
       - config.yaml
       - .github/workflows/main.yml
 
 jobs:
-  Docker:
+  Site:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-    env:
-      DOCKER_SLUG: ghcr.io/cyb3r-jak3/portfolio_website
     steps:
       - uses: actions/checkout@v6
         with:
           submodules: true
           fetch-depth: 0
-
-      # - name: Change Date
-        # run: |
-        #     date=`date +"%d %B %Y (%T %Z)"`
-        #     sed -i "/BUILD_DATE/{s//$date/g}"  public/index.html
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -38,7 +30,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: bash build.sh
 
       # - name: HTML5 Validation
       #   uses: Cyb3r-Jak3/html5validator-action@v7.1.1
@@ -50,7 +42,7 @@ jobs:
             # extra: --ignore-re Attribute "built"
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: site-artifacts
           path: |
